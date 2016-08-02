@@ -4,9 +4,11 @@ Simple deploy script for shipping stuff to Github pages.
 
 ## Use
 
-    ./deploy.sh
+```bash
+./deploy.sh
+```
 
-Add as npm script to ``package.json``
+Or add as a npm script in ``package.json``.
 
 ```bash
 "scripts": {
@@ -14,7 +16,7 @@ Add as npm script to ``package.json``
 },
 ```
 
-and ``npm run deploy``
+and then ``npm run deploy``
 
 ## Description
 
