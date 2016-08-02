@@ -10,7 +10,7 @@ Add as npm script to ``package.json``
 
 ```bash
 "scripts": {
-  "deploy": "./ship.sh"
+  "deploy": "./deploy.sh"
 },
 ```
 
