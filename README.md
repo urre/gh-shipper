@@ -64,13 +64,14 @@ then
 fi
 ```
 
-This chunk does the following:
+Version bump? This chunk does the following:
 + Is this a new version?
 + If (y): 
 1. Print current tag. 
 2. let user type new version
 3. Update version in package.json, bower.json, *.jquery.json etc using [mversion](https://github.com/mikaelbr/mversion)
 4. Update the package on npm (remove if not using)
+5. If (n): Don't do anything
 
 ```bash
 # Push to master
